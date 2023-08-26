@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html	lang="pt-BR">
+<head>
+<meta	charset="utf-8">
+<title>
+		Shao	|	Sobre a Empresa
+</title>
+<link	href="img/favicon.ico" rel="icon">
+<link	rel="stylesheet" href="css/sobre.css">
+<link rel="icon" type="image/png" href="imagens/shao.png"/>
+        
+        <style>
+		body	{
+				width: 940px;
+				margin-left:	auto;
+				margin-right:	auto;
+				font-family: "Helvetica",	"Lucida	Grande",	sans-serif;
+				color: #3D3D3D;
+		}
+		.titulo	{
+				padding: 10px;
+                font-size: 32px;
+				background-color: #E1EDF2;
+		}
+	
+
+		.subtitulo	{
+				border-bottom: 2px	solid	black;
+		}
+		figure	{
+				margin: 30px;
+				padding: 15px;
+				text-align:	center;
+				background-color:	whitesmoke;
+				border: 1px	solid	lightgrey;
+		}
+		figcaption	{
+				margin-top: 10px;
+		}
+
+		.shao-matriz	{
+				width: 550px;
+				margin-left:	auto;
+				margin-right:	auto;
+		}
+
+		.shao-matriz{
+				padding: 0.7em 1.3em;
+				cursor: pointer;
+				background: linear-gradient(90deg, #a0c0c0 0%, rgba(131, 194, 221, 0.404)00%);
+				text-decoration: none;
+				font-weight:bold;
+				font-size:1.1em; 
+				color: rgb(0, 0, 0);
+				border-radius:6px;
+				transition:0.3s;
+		}
+
+		.familia-tupfeln	{
+				width: 275px;
+				float:	right;
+		}
+		figure img	{
+				width: 100%;
+		}
+		.contato__subtitulo	{
+				display:	inline;
+		}
+		.contato__info	{
+				margin: 16px 0 24px;
+				padding-left: 32px;
+		}
+	
+        .contato__info-titulo,
+        .contato__info-descricao	{
+                display:	inline;
+        }
+        
+        .contato__info-descricao	{
+                margin-left: 10px;
+        }
+		h5 {
+				background-color: #fff;
+				color: rgb(29, 28, 28);
+				text-align: center;
+				padding: 40px 0px;
+		}
+
+		.home {
+				font-size: 17px;
+				font-family: Arial, Helvetica, sans-serif;
+				padding: 0.7em 1.3em;
+				cursor: pointer;
+				background: linear-gradient(90deg, #048ec5 0%, #025677 100%);
+				text-decoration: none;
+				font-weight:bold; 
+				color: rgb(255, 255, 255);
+				border-radius:6px;
+				transition:0.3s;
+		}
+
+		.home{
+				display: inline-block;
+				vertical-align: middle;
+				-webkit-transform: translateZ(0);
+				transform: translateZ(0);
+				box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+				-webkit-backface-visibility: hidden;
+				backface-visibility: hidden;
+				-moz-osx-font-smoothing: grayscale;
+		}
+
+		.home {
+				width: auto;
+				font-size: 1em;
+				padding: 12px 25px;
+				border: none;
+				outline: none;
+				background: #313131;
+				color: rgb(59, 52, 52);
+				text-decoration: none;
+				position: relative;
+				z-index: 0;
+				border-radius: 50px;
+			}
+		.home::before {
+			
+				position: absolute;
+				content: "";
+				width: calc(100% + 4px);
+				height: calc(100% + 4px);
+				left: -2px;
+				top: -2px;
+				background: linear-gradient(124deg, #e72100, #f36161, #eec647, #dfe404, #35e854, #32dfe9, #4a3df1, #e549f5, #ae07bf, #f8f8ff, #f36161, #a0c0c0, #1900ff );
+				background-size: 400%;
+				z-index: -1;
+				filter: blur(3px);
+				animation: move 20s linear infinite;
+				opacity: 0;
+				transition: opacity 0.3s ease-in-out;
+				border-radius: 50px;
+			}
+
+		.home:hover::before {opacity: 1;}
+		.home::after {
+				z-index: -1;
+				content: "";
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				background: #ffffff;
+				left: 0;
+				top: 0;
+				border-radius: 50px;
+			}
+
+		@keyframes move {
+				0% {
+					background-position: 0 0;
+				}
+				50% {
+					background-position: 400% 0;
+				}
+				100% {
+					background-position: 0 0;
+			}
+		}
+
+        .coluna{
+float: auto;
+width: 33.33%;
+margin-left: 120px;
+margin-right: 100px;
+}
+
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+
+        </style>
+				</head>
+				<body>
+
+						<div class="home">
+							<tr>
+								<a href="index.html">Página Principal</a>   |
+								<a href="projetos.html">Projetos</a>
+							</tr>
+						</div>
+						<br>
+
+						<h1	class="titulo">	Sobre	a	empresa	</h1>
+						<p align = "justify">
+                            &nbsp;&nbsp;&nbsp;Shao Inc. é uma empresa que fornece orçamentos e máquinas para diversos setores, 
+                            incluindo Lan house, Empresas de Engenharia e Escolas. Para atender às demandas 
+                            desses setores, a empresa fornece computadores de alta performance. Em resumo, a 
+                            empresa atua fornecendo computadores de alta performance para lan house, empresas 
+                            de engenharia e escolas, a fim de atender às demandas desses setores.
+						</p>
+						
+						<figure	class="shao-matriz">
+								<img	src="imagens/shao.png" alt="Logo da Shao">
+								<figcaption>
+												Shao Inc.	
+								</figcaption>
+						</figure>
+                        <li><strong>Projeto Lan House</strong></li>
+                        <p align = "justify">&nbsp;&nbsp;&nbsp;A Shao Inc. fornece computadores de alta performance para lan houses, 
+                        garantindo que os jogadores possam desfrutar de jogos com alta qualidade 
+                        gráfica, velocidade de processamento e baixa latência. Isso é crucial para 
+                        garantir uma experiência de jogo fluida e sem interrupções para os clientes.
+
+                        
+                        <br>
+
+                        <li><strong>Projeto Empresa de Engenharia</strong></li>
+                        <p align = "justify">&nbsp;&nbsp;&nbsp;A Shao Inc. fornece computadores de alta performance para empresas de engenharia, 
+                        permitindo que os engenheiros possam realizar projetos complexos, lidar com grandes 
+                        quantidades de dados e acessar softwares específicos para engenharia de forma rápida 
+                        e eficiente. Isso melhora a precisão, velocidade e qualidade dos projetos e aumenta a 
+                        competitividade da empresa no mercado.</p>
+                        
+                        <br>
+                        
+                        <li><strong>Projeto Escola</strong></li>
+                        <p align = "justify">&nbsp;&nbsp;&nbsp;A Shao Inc. fornece computadores de alta performance para escolas, para que os 
+                        estudantes possam acessar informações e recursos educacionais de forma rápida e eficiente, 
+                        além de ter acesso a ferramentas tecnológicas avançadas para aprendizado e pesquisa. 
+                        Isso ajuda a preparar os estudantes para o mundo digital e dá-lhes as habilidades 
+                        necessárias para serem bem-sucedidos em suas futuras carreiras.</p>
+
+                        <div class="row">
+                            <div class="coluna">
+                                <a href="https://tome.app/empresa-6ab/tecnologia-para-os-setores-escola-engenharia-e-lan-house-cldu4lx2w0gjl1g3yzyafaqbx">
+                                <img width="120" src="imagens/tome.png" alt="Logo do Tome">
+                                <figcaption>Link da apresentação</figcaption>
+                                </div>
+                                </a>
+                            <div class="coluna">
+                            <a href="https://docs.google.com/spreadsheets/d/1A1I-uhz3JCRTTYgRcKSTs9pjUMBVtqZoV-iWEnh_ueY/edit?usp=sharing">
+                            <img width="60" src="imagens/imagemplanilha.jpeg" alt="Logo do Google Sheets">
+                            <figcaption>Link dos orçamentos</figcaption>
+                            </div>
+                            </a>
+                            
+                            <div class="coluna">
+                            <a href="https://docs.google.com/document/d/19n9tvlW-sVNbYUfpjWz5199nVaimQ-Laq4DnndPgC_U/edit?usp=sharing">
+                            <img width="60" src="imagens/imagemdoc.jpeg" alt="Logo do Google Docs">
+                            <figcaption>Link dos Relatório</figcaption>
+                            </div>
+                            </div>
+                            </a>
+                    
+					
+						
+						<h2	id="diferenciais" class="subtitulo">	Ocupações	</h2>
+						<ul>
+								<li>    <strong>Benefício 1:</strong> Redução de Custos</li>
+                                <p align = "justify">&nbsp;&nbsp;&nbsp;A empresa Shao Inc. oferece computadores com preços acessíveis, o que ajuda a reduzir os custos de projetos. Além disso, os computadores são de qualidade superior, o que significa que os projetos realizados com eles terão resultados mais rápidos e melhores.
+                                    A Shao Inc. oferece também serviços de manutenção e suporte técnico, o que significa que os usuários não precisam gastar mais dinheiro com serviços de terceiros.</p>
+								<li>	<strong>Benefício 2:</strong> Facilidade de Uso</li>
+                                <p align ="justify">&nbsp;&nbsp;&nbsp;Os computadores da Shao Inc. são projetados para serem fáceis de usar. Os usuários podem configurar os computadores rapidamente e começar a trabalhar em seus projetos, o que significa que eles podem começar a trabalhar mais rapidamente.
+                                    Além disso, os computadores da Shao Inc. oferecem uma interface intuitiva, o que significa que os usuários não precisam passar muito tempo aprendendo como usar o computador.
+                                    </p>
+
+								<li>	<strong>Benefício 3:</strong> Segurança </li>
+                                <p align = "justify">&nbsp;&nbsp;&nbsp;Os computadores da Shao Inc. são projetados para oferecer altos níveis de segurança, o que significa que os usuários podem ter certeza de que seus projetos estarão seguros. Além disso, os computadores são projetados para serem resistentes a vírus e outras formas de malware.
+                                    A Shao Inc. também oferece serviços de segurança, o que significa que os usuários podem ter certeza de que seus projetos estarão seguros.
+                                    </p>
+
+								<li>	<strong>Benefício 4:</strong> Suporte Técnico 	</li>
+                                <p align = "justify">&nbsp;&nbsp;&nbsp;A Shao Inc. oferece serviços de suporte técnico, o que significa que os usuários podem obter ajuda rapidamente se tiverem algum problema com seus computadores. Além disso, os serviços de suporte técnico são oferecidos 24 horas por dia, 7 dias por semana.
+                                    A Shao Inc. também oferece serviços de manutenção, o que significa que os usuários podem ter certeza de que seus computadores estarão funcionando corretamente.
+                                    </p>
+
+								<li>	<strong>Benefício 5:</strong> Design	</li>
+                                <p align = "justify">&nbsp;&nbsp;&nbsp;Os computadores da Shao Inc. são projetados para serem atraentes e modernos, o que significa que eles podem ser usados para fins de projetos criativos. Além disso, os computadores são leves e portáteis, o que significa que os usuários podem levá-los para onde quiserem.
+                                    A Shao Inc. também oferece aos usuários a possibilidade de personalizar seus computadores, o que significa que eles podem criar computadores que se encaixem em seu estilo de vida.
+                                    </p>
+								
+								
+						</ul>
+				
+                        <tr>
+                            <h5>Copyright © 2023 Shao Inc. Todos os direitos reservados. Shao Computer Brasil. CNPJ: 95.332.250/0001-35</h5>
+                        </tr>
+				</body>
+		</html>
